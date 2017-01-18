@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://app.socialdraft.com/" />
+<title>SidebarElements</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SidebarElements</td></tr>
+</thead><tbody>
+<tr>
+	<td>assertVisible</td>
+	<td>css=a.toggle-sidebar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-bars</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-calendar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-inbox</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-tasks</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-wrench</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-bar-chart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-shopping-cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-gear</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-bars</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a.nav-active &gt; span</td>
+	<td>Calendar</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#sidebar-feed-li-sub &gt; a &gt; span</td>
+	<td>Inbox</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#sidebar-task-li-sub &gt; a &gt; span</td>
+	<td>Tasks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a.accordion-toggle.collapsed&nbsp;&nbsp;&gt; span</td>
+	<td>Tools</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#sidebar-report-li &gt; a.accordion-toggle.collapsed&nbsp;&nbsp;&gt; span</td>
+	<td>Reports</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=(//li[@id='sidebar-feed-li-sub']/a/span)[2]</td>
+	<td>Store</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=(//li[@id='sidebar-feed-li-sub']/a/span)[3]</td>
+	<td>Settings</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

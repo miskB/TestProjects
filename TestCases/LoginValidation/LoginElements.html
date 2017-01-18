@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://app.socialdraft.com/" />
+<title>appsd_LoginUIValidation</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">appsd_LoginUIValidation</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=exact:Don't have an account? Sign Up</td>
+	<td>Don't have an account? Sign Up</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#reset-password-btn</td>
+	<td>Forgotten your password? Reset password</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul.loginFooter &gt; li</td>
+	<td>© 2017 All Rights Reserved.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='loginform']/ul/li[2]</td>
+	<td>Socialdraft is a registered trademark of Binary Bits LLC.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Privacy and Terms</td>
+	<td>Privacy and Terms</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#reset-password-btn &gt; strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.title</td>
+	<td>Forgot Your Password?</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p</td>
+	<td>Please enter the email address you are using with your Socialdraft account.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='formreset']/div/p[2]</td>
+	<td>We will send you instructions how to reset your password!</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//form[@id='formreset']/div/p[3]</td>
+	<td>If you are a sub-admin, please email the Socialdraft account owner so they can reset your password.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=login-btn</td>
+	<td>Have an account? Login</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=resetbtn</td>
+	<td>Reset Password</td>
+</tr>
+</tbody></table>
+</body>
+</html>

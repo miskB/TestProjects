@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://app.socialdraft.com/" />
+<title>CreatePageElements</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CreatePageElements</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>ann@socialdraft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=create-post-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=#create-post-tab &gt; span</td>
+	<td>Create</td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=i.fa.fa-calendar-plus-o</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=text_lp1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAttribute</td>
+	<td>id=text_lp1[@placeholder=]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.pull-right.twitstatus</td>
+	<td>Twitter Status 140</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
